@@ -39,7 +39,9 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;  
 }
+
 .haha {
     text-transform: uppercase;
     color: firebrick;
@@ -77,3 +79,8 @@ video {
     display: none;
 }
 
+@media (max-width: 500px) {
+    .trick-again {
+        margin-top: 1rem;
+    }
+}
